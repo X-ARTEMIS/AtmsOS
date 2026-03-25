@@ -1,4 +1,4 @@
-; 3/24/26, @Stari-Div
+; 3/25/26, @Stari-Div
 ; boot.asm
 
 ; ## Comment ##
