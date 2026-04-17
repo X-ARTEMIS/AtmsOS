@@ -17,6 +17,9 @@ This will teach you how to manualy compile the source code into a bootable image
 4. After that, type ```i686-elf-gcc -T linker.ld -o myos -ffreestanding -O2 -nostdlib boot.o kernel.o -lgcc```
 5. If you want to verify multiboot (use grub) which is recomended: exucute ```grub-file --is-x86-multiboot myos```
 
+> [!WARNING]  
+> For some reason I wasn't able to get GRUB to verify the multiboot on OSX, this may just be me.
+
 > [!NOTE]  
 > The term ```myos``` or ```myos.iso``` refers to ArtemisOS, or the operating you are compiling. This will be changed later to ```atmsos``` or  ```atmsos.iso``` later in development.
 
