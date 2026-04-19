@@ -32,4 +32,4 @@ Run ```qemu-system-i386 -cdrom myos.iso``` This should start a new virtual machi
 Additionally, QEMU supports booting multiboot kernels directly without bootable medium: ```qemu-system-i386 -kernel myos``` which from my knowledge works best with MacOS.
 
 > [!WARNING]  
-> If QEMU states qemu: ```could not open kernel file 'myos': No such file or directory``` you may need to add ```.iso``` onto ```myos``` making ```myos.iso```
+> If QEMU states: ```could not open kernel file 'myos': No such file or directory``` you may need to add ```.iso``` onto ```myos``` making ```myos.iso```
