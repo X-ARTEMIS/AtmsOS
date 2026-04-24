@@ -2,6 +2,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
+/* Is stupid VSCODE marking #error as an eror lol */
 /* Check if the compiler thinks you are targeting the wrong operating system. */
 #if defined(__linux__)
 #error "You are not using a cross-compiler, you will most certainly run into trouble"
@@ -111,13 +112,6 @@ void kernel_main(void)
 	terminal_initialize();
 
 	/* Newline support is left as an exercise. */
-	terminal_color = 11;
-	terminal_writestring("Artemis");
-	terminal_color = 9;
-	terminal_writestring("Os");
-
-	terminal_color = 15;
-	terminal_column = 1;
-	terminal_row = 3;
-	terminal_writestring("Hello, kernel World!\n");
+	terminal_writestring("Welcome to ArtemisOS (Kernal)");
+	terminal_writestring("Version 0.1.2, Alpha \n");
 }
