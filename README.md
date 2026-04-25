@@ -1,7 +1,5 @@
-OS, now with less OS
-
 # Artemis OS
-(TBA)
+OS, now with less OS
 
 ## Manual Compilation
 This will teach you how to manualy compile the source code into a bootable image.
